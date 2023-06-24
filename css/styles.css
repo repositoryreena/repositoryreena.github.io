@@ -44,20 +44,26 @@
 
             
           
-            .typed-out{
+            .typed-out {
               overflow: hidden;
               border-right: .15em solid orange;
               white-space: nowrap;
               font-size: 1.6rem;
               width: 0;
-              animation: 
-                typing 1s steps(20, end) forwards,
-                blink .8s infinite;
-          }
-
-          .container2 {
-            display: inline-block;
-          }
+              animation: typing 1s steps(20, end) forwards, blink .8s infinite;
+            }
+            
+            .container2 {
+              display: inline-block;
+            }
+            
+            /* Add a media query for smaller screens */
+            @media (max-width: 480px) {
+              .typed-out {
+                font-size: 1.2rem; /* Adjust the font size as needed for better visibility */
+              }
+            }
+            
 
           @keyframes typing {
             from { width: 0 }

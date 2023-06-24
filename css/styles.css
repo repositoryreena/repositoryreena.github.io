@@ -33,6 +33,9 @@
   overflow-wrap: break-word;
 }
 
+.project {
+  margin-bottom: 20px; /* Adjust the value as needed */
+}
 
 
             .wider-input {

@@ -21,6 +21,11 @@
   color: white;
 }
 
+@media (max-width: 480px) {
+  .typed-out {
+    font-size: 20px;
+  }
+}
 
 
             .wider-input {

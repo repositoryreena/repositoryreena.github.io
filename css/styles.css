@@ -15,7 +15,18 @@
   color: white;
   display: inline-block;
   padding: 50px;
+  margin-top: 20px;
+  margin-right: 10px;
 }
+
+
+.language2 {
+  color: white;
+  display: inline-block;
+  margin-top: 10px; /* Add desired margin on top */
+  margin-right: 10px; /* Add spacing between the elements if desired */
+}
+
 
 .social {
   color: white;

@@ -11,6 +11,35 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
 
+ .col-lg-6 {
+  position: relative;
+  display: inline-block;
+}
+
+.col-lg-6 .reenathomastooltip {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: #fff;
+  padding: 10px;
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  width: 100%; /* Set the width to 100% */
+  height: 100%; /* Set the height to 100% */
+}
+
+.col-lg-6:hover .reenathomastooltip {
+  visibility: visible;
+  opacity: 1;
+}
+
+
+
+
+
+
 .language {
   color: white;
   display: inline-block;

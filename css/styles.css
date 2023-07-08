@@ -28,12 +28,22 @@
   transition: opacity 0.3s ease;
   width: 100%; /* Set the width to 100% */
   height: 100%; /* Set the height to 100% */
+  white-space: normal; /* Allow the tooltip content to wrap to multiple lines */
+  font-size: 14px; /* Adjust the font size for smaller screens */
+}
+
+@media (max-width: 576px) {
+  .col-lg-6 .reenathomastooltip {
+    font-size: 12px; /* Further reduce the font size on mobile devices */
+  }
 }
 
 .col-lg-6:hover .reenathomastooltip {
   visibility: visible;
   opacity: 1;
 }
+
+
 
 
 

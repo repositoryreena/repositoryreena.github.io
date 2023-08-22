@@ -11,6 +11,10 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
 
+ .additionalprojects {
+  text-align: center;
+ }
+
  .col-lg-6 {
   position: relative;
   display: inline-block;
